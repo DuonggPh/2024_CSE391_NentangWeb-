@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: orangered;
+    margin-left: 50px;
+}
+
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Khoảng cách giữa các ô */
+    padding: 20px;
+}
+
+.course {
+    flex: 1 1 calc(33% - 50px); /* Mỗi ô chiếm 33% chiều rộng, trừ đi khoảng cách giữa các ô */
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+    padding: 30px;
+    /* background-color: #f9f9f9; */
+}
+
+.course img {
+    max-width: 100%;
+    height: auto;
+}
+
+.course h2 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.course div {
+    margin-bottom: 15px;
+}
+
+.course ul {
+    list-style: none;
+    padding: 0;
+}
+
+.course li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.course li i {
+    margin-right: 10px;
+}
